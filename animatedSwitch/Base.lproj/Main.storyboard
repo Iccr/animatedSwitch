@@ -221,13 +221,25 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Switch Concept" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lFg-8L-c8L">
+                                <rect key="frame" x="0.0" y="20" width="375" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="faS-4q-xgh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="HqO-7f-GgO" secondAttribute="trailing" id="3DD-TO-X5X"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="HqO-7f-GgO" secondAttribute="bottom" constant="50" id="4nG-ec-RhG"/>
+                            <constraint firstItem="lFg-8L-c8L" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="9Ft-w1-L19"/>
                             <constraint firstItem="HqO-7f-GgO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="Phh-Op-Kso"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lFg-8L-c8L" secondAttribute="trailing" id="Sjg-0f-LyW"/>
                             <constraint firstItem="HqO-7f-GgO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="UaH-lD-it8"/>
+                            <constraint firstItem="lFg-8L-c8L" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="VJd-YT-7B4"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
