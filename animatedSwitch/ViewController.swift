@@ -57,10 +57,10 @@ class ViewController: UIViewController {
         circleView?.backgroundColor = UIColor.red
         self.containerView.addSubview(circleView!)
 
-        let p = self.view.bounds.width
-        let b = self.view.bounds.height
+        let p = self.view.bounds.width/2
+        let b = self.view.bounds.height/2
         let rSquare = pow(p, 2) + pow(b, 2)
-        let r = sqrt(rSquare)/6
+        let r = sqrt(rSquare)
         //
         
         
@@ -103,10 +103,10 @@ class ViewController: UIViewController {
             circleView2?.layer.cornerRadius = (circleView2?.bounds.width)!/2
             circleView2?.backgroundColor = UIColor.red
             self.containerView2.addSubview(circleView2!)
-            let p = self.view.bounds.width
-            let b = self.view.bounds.height
+            let p = self.view.bounds.width/2
+            let b = self.view.bounds.height/2
             let rSquare = pow(p, 2) + pow(b, 2)
-            let r = sqrt(rSquare)/6
+            let r = sqrt(rSquare)
 
             let animator = UIViewPropertyAnimator(duration: 0.4, curve: UIViewAnimationCurve.easeInOut)
             
